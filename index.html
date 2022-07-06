@@ -2,47 +2,16 @@
 <html>
 <head>
     <title>My Name</title>
-    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header id="body-header">
         <nav>
-            
-            <div class = "dropdown-menu text-right">
-                <div class="bars">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <div class ="dropdown-list nav-menu">
-                    <ul class = "no-list-style">
-                        <li >
-                            <a href="#"> Home </a>
-                        </li>
-                        <li>
-                            <a href="#about"> About </a>
-                        </li>
-                        <li>
-                            <a href="#skills"> Skills </a>
-                        </li>
-                        <li>
-                            <a href="#experience">Experience</a>
-                        </li>
-                        <li>
-                            <a href="#education">Education</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    </div>
 
-             </div>   
-
-            <ul class="no-list-style horizontal-list text-center nav-menu">
+            <ul class="horizontal-list text-center nav-menu">
                 <li>
                     <a href="#"> Home </a>
                 </li>
@@ -73,7 +42,7 @@
                 <h1 id="my-name">My Name</h1>
             </div>
             <div>
-                <ul class="no-list-style horizontal-list text-center social-icons">
+                <ul class="horizontal-list text-center social-icons">
                     <li>
                         <a href="#">
                             <i class="fab fa-linkedin-in"></i>
@@ -133,45 +102,44 @@
                 <span> SKILLS </span>
             </h1>
 
-            <div class="skills-display">
-
+            <div id = "skills-container" class="skills-display">
                 <div class="skill-progress">
-                    <div class="fifty-percent mb-blue">
+                    <div class="fifty-percent mb-blue" data-bar-width="85">
                         <div class="skill-name">
                             <span> C++ </span>
                         </div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="eighty-five-percent mb-orange">
+                    <div class="eighty-five-percent mb-orange" data-bar-width="80" data-skill-percent="75">
                         <div class="skill-name">
                             <span> HTML </span>
                         </div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="eighty-percent mb-light-purple">
+                    <div class="eighty-percent mb-light-purple" data-bar-width="85">
                         <div class="skill-name">
                             <span> CSS </span>
                         </div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="fifty-percent mb-teal">
+                    <div class="fifty-percent mb-teal" data-bar-width="80">
                         <div class="skill-name">
                             <span> Javascript </span>
                         </div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="fifty-percent mb-blue">
+                    <div class="fifty-percent mb-blue" data-bar-width="75">
                         <div class="skill-name">
                             <span> NodeJs </span>
                         </div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="eighty-percent mb-light-purple">
+                    <div class="eighty-percent mb-light-purple" data-bar-width="60">
                         <div class="skill-name">
                             <span> MongoDB </span>
                         </div>
@@ -181,6 +149,7 @@
             </div>
 
         </section>
+
 
         <section id="experience">
 
@@ -202,7 +171,7 @@
                         <h4 class="experience-company-name"> Company Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
 
-                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 
@@ -214,7 +183,7 @@
                         <h3 class="experience-designation  m0 m-blue"> Designation </h3>
                         <h4 class="experience-company-name"> Company Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
-                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
 
@@ -227,7 +196,7 @@
                         <h4 class="experience-company-name"> Company Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
 
-                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
 
@@ -263,7 +232,7 @@
                         <h4 class="experience-company-name "> Institute Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
 
-                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 
@@ -275,7 +244,7 @@
                         <h3 class="experience-designation  m0 m-blue"> Degree </h3>
                         <h4 class="experience-company-name "> Institute Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
-                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
 
@@ -288,7 +257,7 @@
                         <h4 class="experience-company-name "> Institute Name </h4>
                         <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
 
-                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 
@@ -412,7 +381,7 @@
 
             <div class="text-center social-icons">
 
-                <ul class="no-list-style horizontal-list">
+                <ul class="horizontal-list">
 
                     <li>
                         <a href="https://www.linkedin.com/in/manisha-khattar-b5663641/">
@@ -448,8 +417,6 @@
         </section>
 
     </main>
-
     <script src="script.js"></script>
-    
 </body>
 </html>
